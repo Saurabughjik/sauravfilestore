@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "27860124"))
 API_HASH = environ.get("API_HASH", "1e13cb41f6c5d03560a83bae3e8834dc")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7499403756:AAF4NYLVHSqph4bruGRkFT0HtS-rOu8tyrs")
+BOT_TOKEN = environ.get("BOT_TOKEN", "6838573953:AAHvqzL91WI4QTLwKY528A-rZwjZjMbIjmg")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/82b01871c9c4e2c523454.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://graph.org/file/cdf153380159191fbd072.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1442857853').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Animeworld4UonlyBot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Donghua4UBot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -36,7 +36,7 @@ CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
 DB_URI = environ.get("DB_URI", "mongodb+srv://grouphelp:grouphelp@grouphelp.ccgqorv.mongodb.net/?retryWrites=true&w=majority&appName=grouphelp")
-DB_NAME = environ.get("DB_NAME", "saurav")
+DB_NAME = environ.get("DB_NAME", "saurav2")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "20")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1200")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002190372410"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002163127394"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
@@ -59,9 +59,9 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 VERIFY_MODE = bool(environ.get('VERIFY_MODE', True)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "publicearn.com") # shortlink domain without https://
-SHORTLINK_API = environ.get("SHORTLINK_API", "5a7506c5a156450c8af39b1a8402d56647530de8") # shortlink api
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+v4C3eaVZJUVhZDY1") # how to open link 
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "instantearn.in") # shortlink domain without https://
+SHORTLINK_API = environ.get("SHORTLINK_API", "97380e35077b2af453bb8b940d18ba571a2aaae6") # shortlink api
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+gFwc1V44PMIzOGM1") # how to open link 
 
 # Website Info:
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
